@@ -1,0 +1,104 @@
+{
+  "dataLinkLeft": [
+    {
+      "name": "PayMents",
+      "description": "This is a practical test from Stone that I found free here on github and decided to do. The test is basically creating a dollar purchase converter and simulator! With tax rate, IOF rate.",
+      "linkGithub": "https://github.com/natamartinscodedev/PayMents",
+      "linkVercel": "https://pay-ments.vercel.app/",
+      "img": "/image/image0.png"
+    },
+    {
+      "name": "Tmovies",
+      "description": "Tmovies is a website where you have access to different films and series, films that are about to be released, that have been released recently and those that already exist on the platforms. You have them all on this site!",
+      "linkGithub": "https://github.com/natamartinscodedev/Tmovie0.2",
+      "linkVercel": "https://tmovie0-2.vercel.app/",
+      "img": "/image/image1.png"
+    },
+    {
+      "name": "CoinSynch",
+      "description": "This is another technical challenge that I found here on free LinkedIn! A simple website where the home page contains some company information, the texts are static, nothing real. But the idea of the site is to contain information about cryptocurrencies.",
+      "linkGithub": "https://github.com/natamartinscodedev/Landpage",
+      "linkVercel": "https://landpage-sigma.vercel.app/",
+      "img": "/image/image2.png"
+    },
+    {
+      "name": "Dashboard da CoinSynch",
+      "description": "This is the Coin Synch project Dashboard! This dashboard is very simple, it contains information about the user's portfolio, showing how many and which coins he has in his wallet.",
+      "linkGithub": "https://github.com/natamartinscodedev/Dashboard",
+      "linkVercel": "https://dashboard-silk-zeta.vercel.app/",
+      "img": "/image/image3.png"
+    },
+    {
+      "name": "PayMents",
+      "description": "This is a practical test from Stone that I found free here on github and decided to do. The test is basically creating a dollar purchase converter and simulator! With tax rate, IOF rate.",
+      "linkGithub": "https://github.com/natamartinscodedev/PayMents",
+      "linkVercel": "https://pay-ments.vercel.app/",
+      "img": "/image/image0.png"
+    },
+    {
+      "name": "Tmovies",
+      "description": "Tmovies is a website where you have access to different films and series, films that are about to be released, that have been released recently and those that already exist on the platforms. You have them all on this site!",
+      "linkGithub": "https://github.com/natamartinscodedev/Tmovie0.2",
+      "linkVercel": "https://tmovie0-2.vercel.app/",
+      "img": "/image/image1.png"
+    },
+    {
+      "name": "CoinSynch",
+      "description": "This is another technical challenge that I found here on free LinkedIn! A simple website where the home page contains some company information, the texts are static, nothing real. But the idea of the site is to contain information about cryptocurrencies.",
+      "linkGithub": "https://github.com/natamartinscodedev/Landpage",
+      "linkVercel": "https://landpage-sigma.vercel.app/",
+      "img": "/image/image2.png"
+    },
+    {
+      "name": "Dashboard da CoinSynch",
+      "description": "This is the Coin Synch project Dashboard! This dashboard is very simple, it contains information about the user's portfolio, showing how many and which coins he has in his wallet.",
+      "linkGithub": "https://github.com/natamartinscodedev/Dashboard",
+      "linkVercel": "https://dashboard-silk-zeta.vercel.app/",
+      "img": "/image/image3.png"
+    }
+  ],
+  "dataLinkRight": [
+    {
+      "name": "Code Help",
+      "description": "This is a personal project that I'm doing to improve my skills and knowledge! The idea of this project is mainly to increase my skills, learning about new technologies and using new tools. With the technologies that I am currently specializing in, I seek to improve and deepen my knowledge in the same!",
+      "linkGithub": "https://github.com/natamartinscodedev/CodeHelpeV2",
+      "linkVercel": "https://code-helpe-v2.vercel.app/",
+      "img": "/image/image4.png"
+    },
+    {
+      "name": "Afforai Landpage US",
+      "description": "Afforai is an AI chatbot that searches, summarizes, and translates info from multiple sources to produce trustworthy research. Feed lengthy research documents to stacks of dry compliance requirements and extract the key findings you need.",
+      "linkGithub": "https://github.com/natamartinscodedev/Afforai-landingpage",
+      "linkVercel": "https://afforai-landingpage.vercel.app/",
+      "img": "/image/image6.png"
+    },
+    {
+      "name": "Blog",
+      "description": "This is my personal blog, a really cool project to build! The idea is to post things I learn, tips from the front world and routines in my life!",
+      "linkGithub": "https://github.com/natamartinscodedev/nata.codedev.com.br",
+      "linkVercel": "https://nata-codedev-com-br.vercel.app/",
+      "img": "/image/image7.png"
+    },
+    {
+      "name": "Code Help",
+      "description": "This is a personal project that I'm doing to improve my skills and knowledge! The idea of this project is mainly to increase my skills, learning about new technologies and using new tools. With the technologies that I am currently specializing in, I seek to improve and deepen my knowledge in the same!",
+      "linkGithub": "https://github.com/natamartinscodedev/CodeHelpeV2",
+      "linkVercel": "https://code-helpe-v2.vercel.app/",
+      "img": "/image/image4.png"
+    },
+    {
+      "name": "Afforai Landpage US",
+      "description": "Afforai is an AI chatbot that searches, summarizes, and translates info from multiple sources to produce trustworthy research. Feed lengthy research documents to stacks of dry compliance requirements and extract the key findings you need.",
+      "linkGithub": "https://github.com/natamartinscodedev/Afforai-landingpage",
+      "linkVercel": "https://afforai-landingpage.vercel.app/",
+      "img": "/image/image6.png"
+    },
+    {
+      "name": "Blog",
+      "description": "This is my personal blog, a really cool project to build! The idea is to post things I learn, tips from the front world and routines in my life!",
+      "linkGithub": "https://github.com/natamartinscodedev/nata.codedev.com.br",
+      "linkVercel": "https://nata-codedev-com-br.vercel.app/",
+      "img": "/image/image7.png"
+    }
+  ]
+}

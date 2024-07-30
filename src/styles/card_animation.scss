@@ -1,0 +1,43 @@
+// section animation skills
+.animation_skills {
+    width: 100%;
+    background-color: #1D1B1B;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1.5rem;
+    font-size: 2.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.container_animation-skills {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    animation: rollText 25s linear infinite;
+}
+
+.animation_skills-true {
+    color: #fff;
+}
+
+.animation_skills-false {
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.box_animation {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+@keyframes rollText {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
