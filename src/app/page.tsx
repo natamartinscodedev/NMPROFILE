@@ -8,7 +8,7 @@ import CardProjec from '@/components/CardProjects/index'
 import { dataLinkLeft, dataLinkRight } from '@/utils/dateLinks.json'
 import CardSkill from '@/components/cardExperience/index'
 import CardListExperience from '@/components/cardExperience/listSkillsEx'
-import { Code, Component, Github, Linkedin, Twitter } from 'lucide-react';
+import { Code, Component, Github, Linkedin, MailPlus, Twitter } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Home() {
@@ -235,14 +235,31 @@ export default function Home() {
           <div className='container'>
             <h3>Quer começar um projeto e
               alavancar seu produto online?</h3>
-            <p>Entre em contato no site da empresa</p>
+            <p>Entre em contato para conversarmos</p>
+            <p>Redes para contato:</p>
 
-            <Link href='https://mycompany-iota.vercel.app/' target='__blank'>NSoluções</Link>
+            <div className='contact_footer'>
+              <CardMidia
+                icon={<Linkedin size={25} />}
+                link='https://www.linkedin.com/in/nata-martins/'
+              />
+              <CardMidia
+                icon={<Github size={25} />}
+                link='https://github.com/natamartinscodedev'
+              />
+              <CardMidia
+                icon={<Twitter size={25} />}
+                link='https://twitter.com/naythan777'
+              />
+            </div>
+            <Link className='mail-pus' href='mailto:nata.codedev@gmail.com'><MailPlus size={25} /> Email: nata.codedev@gmail.com</Link>
+
+            {/* <Link href='https://mycompany-iota.vercel.app/' target='__blank'>NSoluções</Link> */}
           </div>
         </section>
       </main>
       <footer className='container_footer'>
-        <p>Natã Martins © - 2021</p>
+        <p>Natã Martins © 2021 -Todos os direitos reservados.</p>
       </footer>
     </>
   );
