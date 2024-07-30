@@ -37,6 +37,9 @@ export default function Home() {
       </header>
       <main className=''>
         <section className='box_info-me container'>
+          <div className='card_video'>
+            <video src="/image/videobackground.mp4" autoPlay loop muted />
+          </div>
           <div className='box-info'>
             <h1>Frontend Developer
               <div>
@@ -145,32 +148,32 @@ export default function Home() {
               </div>
             </div>
             <div className='box-projectsRight box-projects '>
-             <div className='box-right'>
-             {
-                dataLinkRight && dataLinkRight.map((item: any, index: any) => (
-                  <CardProjec
-                    key={index}
-                    name={item.name}
-                    descripion={item.descripion}
-                    linkGithub={item.linkGithub}
-                    linkVercel={item.linkVercel}
-                    image={item.img}
-                  />
-                ))
-              }
-              {
-                dataLinkRight && dataLinkRight.map((item: any, index: any) => (
-                  <CardProjec
-                    key={index}
-                    name={item.name}
-                    descripion={item.descripion}
-                    linkGithub={item.linkGithub}
-                    linkVercel={item.linkVercel}
-                    image={item.img}
-                  />
-                ))
-              }
-             </div>
+              <div className='box-right'>
+                {
+                  dataLinkRight && dataLinkRight.map((item: any, index: any) => (
+                    <CardProjec
+                      key={index}
+                      name={item.name}
+                      descripion={item.descripion}
+                      linkGithub={item.linkGithub}
+                      linkVercel={item.linkVercel}
+                      image={item.img}
+                    />
+                  ))
+                }
+                {
+                  dataLinkRight && dataLinkRight.map((item: any, index: any) => (
+                    <CardProjec
+                      key={index}
+                      name={item.name}
+                      descripion={item.descripion}
+                      linkGithub={item.linkGithub}
+                      linkVercel={item.linkVercel}
+                      image={item.img}
+                    />
+                  ))
+                }
+              </div>
             </div>
           </div>
         </section>
