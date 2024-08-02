@@ -1,0 +1,17 @@
+{
+    "HomePage": {
+        "description": "Desde 2021, tenho me dedicado ao desenvolvimento de interfaces e softwares, transformando minha paixão em uma carreira. Especializado em linguagens e tecnologias de ponta, como JavaScript/TypeScript, ReactJS e NextJS, meu objetivo é criar produtos digitais de alta qualidade que impactem positivamente a vida das pessoas.",
+        "title": "Experience professional",
+        "subTitle01": "Desenvolvimento Web e Desenvolvimento de Software",
+        "subTitle02": "Desenvolvimento Orientado a Testes (TDD)",
+        "text01": "JavaScript/TypeScript: Expertise em ES6+, Ember.js. Frameworks e Bibliotecas: ReactJS, NextJS, VueJS, NodeJS. Integrações BFF (Backend for Frontend): Experiência com REST APIs. Styling: Proficiência em Sass, Styled Components, Tailwind CSS, Material UI. Progressive Web Apps (PWAs): Criação de sites responsivos e acessíveis.",
+        "text02": "Ferramentas: Jest, Cypress.Clean Code: Código limpo, acessível e reutilizável.",
+        "text03": "Ferramentas: Figma, Storybook.Ecossistema JS: Babel, Webpack.",
+        "text04": "Bancos de Dados: MongoDB, Firebase. Linguagens Adicionais: Java (Maven, Spring Boot), Kotlin. Contêineres: Docker.",
+        "objective": "Meu objetivo é continuar crescendo como profissional, desenvolvendo produtos de qualidade, transformando vidas e aprendendo novas tecnologias. Estou constantemente em busca de novos desafios que me permitam aplicar minhas habilidades e contribuir para projetos inovadores. Adepto de metodologias ágeis, acredito na entrega rápida e contínua de valor.",
+        "contactTitle": "Quer começar um projeto e alavancar seu produto online?",
+        "contactSubTitle": "Entre em contato para conversarmos",
+        "MidiaTitle": "Redes para contato:",
+        "btnClick": "Click aqui!"
+    }
+}

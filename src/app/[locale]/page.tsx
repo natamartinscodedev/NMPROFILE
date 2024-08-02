@@ -10,8 +10,15 @@ import CardSkill from '@/components/cardExperience/index'
 import CardListExperience from '@/components/cardExperience/listSkillsEx'
 import { Code, Component, Github, Linkedin, MailPlus, Twitter } from 'lucide-react';
 import Link from 'next/link';
+import LanguageSelector from '@/components/LanguageSelector';
+import { useTranslations } from 'next-intl';
 
-export default function Home() {
+export default function Home({ params }: any) {
+  const t = useTranslations('HomePage');
+  const ex = useTranslations('WxperiencePage')
+  const locale = params.locale
+
+
   return (
     <>
       <header className='container'>
@@ -31,7 +38,7 @@ export default function Home() {
               icon={<Twitter size={25} />}
               link='https://twitter.com/naythan777'
             />
-            <button className='button-translation'>pt-BR</button>
+            <LanguageSelector location={locale} />
           </div>
         </nav>
       </header>
@@ -47,12 +54,7 @@ export default function Home() {
                 <span>UI/UX Developer</span>
               </div>
             </h1>
-            <p>
-              Desde 2021, tenho me dedicado ao desenvolvimento de interfaces e softwares,
-              transformando minha paixão em uma carreira. Especializado em linguagens e tecnologias
-              de ponta, como JavaScript/TypeScript, ReactJS e NextJS, meu objetivo é criar produtos
-              digitais de alta qualidade que impactem positivamente a vida das pessoas.
-            </p>
+            <p>{t('description')}</p>
           </div>
           <div className='box-img'>
             <Image src={ImgHome} alt='' />
@@ -199,44 +201,34 @@ export default function Home() {
                   <li></li>
                   <li></li>
                 </ul>
-                <p>
-                  Meu objetivo é continuar crescendo como profissional, desenvolvendo produtos de qualidade,
-                  transformando vidas e aprendendo novas tecnologias. Estou constantemente em busca de novos
-                  desafios que me permitam aplicar minhas habilidades e contribuir para projetos inovadores.
-                  Adepto de metodologias ágeis, acredito na entrega rápida e contínua de valor.
-                </p>
+                <p>{t('objective')}</p>
               </div>
             </div>
             <div className='container_info-skills-experience'>
               <CardListExperience
-                title='Desenvolvimento Web e Desenvolvimento de Software'
-                skills='JavaScript/TypeScript: Expertise em ES6+, Ember.js. Frameworks e Bibliotecas: 
-                ReactJS, NextJS, VueJS, NodeJS. Integrações BFF (Backend for Frontend): Experiência com 
-                REST APIs. Styling: Proficiência em Sass, Styled Components, Tailwind CSS, Material UI. 
-                Progressive Web Apps (PWAs): Criação de sites responsivos e acessíveis.'
+                title={`${t('subTitle01')}`}
+                skills={`${t('text01')}`}
               />
               <CardListExperience
-                title='Desenvolvimento Orientado a Testes (TDD)'
-                skills='Ferramentas: Jest, Cypress.Clean Code: Código limpo, acessível e reutilizável.'
+                title={`${t('subTitle02')}`}
+                skills={`${t('text02')}`}
               />
               <CardListExperience
-                title='Desenvolvimento Orientado a Testes (TDD)'
-                skills='Ferramentas: Figma, Storybook.Ecossistema JS: Babel, Webpack.'
+                title={`${t('subTitle02')}`}
+                skills={`${t('text03')}`}
               />
               <CardListExperience
-                title='Outras Tecnologias'
-                skills='Bancos de Dados: MongoDB, Firebase. Linguagens Adicionais: Java (Maven, Spring Boot), 
-                Kotlin. Contêineres: Docker.'
+                title={`${t('subTitle02')}`}
+                skills={`${t('text04')}`}
               />
             </div>
           </div>
         </section>
         <section className='card_contact'>
           <div className='container'>
-            <h3>Quer começar um projeto e
-              alavancar seu produto online?</h3>
-            <p>Entre em contato para conversarmos</p>
-            <p>Redes para contato:</p>
+            <h3>{`${t('contactTitle')}`}</h3>
+            <p>{`${t('contactSubTitle')}`}</p>
+            <p>{`${t('MidiaTitle')}`}</p>
 
             <div className='contact_footer'>
               <CardMidia
@@ -252,7 +244,11 @@ export default function Home() {
                 link='https://twitter.com/naythan777'
               />
             </div>
-            <Link className='mail-pus' href='mailto:nata.codedev@gmail.com'><MailPlus size={25} /> Email: nata.codedev@gmail.com</Link>
+            <Link
+              className='mail-pus'
+              href='https://webportfolio-olive.vercel.app/'
+              target='__blank'
+            >{`${t('btnClick')}`}</Link>
 
             {/* <Link href='https://mycompany-iota.vercel.app/' target='__blank'>NSoluções</Link> */}
           </div>
