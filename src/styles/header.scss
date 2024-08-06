@@ -2,7 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 0px;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: rgb(97, 97, 97);
+
+    a {
+        color: white;
+        font-size: 1.5rem;
+    }
 }
 
 .button-translation {

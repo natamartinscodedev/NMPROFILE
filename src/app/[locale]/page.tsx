@@ -23,7 +23,7 @@ export default function Home({ params }: any) {
     <>
       <header className='container'>
         <nav className='card_nav'>
-          <h2>NM</h2>
+          <Link href='/'>NM</Link>
           <p>ALL WORKS</p>
           <div className='box_midia'>
             <CardMidia
@@ -79,8 +79,6 @@ export default function Home({ params }: any) {
                 name='typeScript'
                 style={false}
               />
-            </div>
-            <div className='box_animation'>
               <AnimarionSkills
                 name='ui/ux Designer'
                 style={true}
@@ -97,8 +95,40 @@ export default function Home({ params }: any) {
                 name='clean code'
                 style={false}
               />
+              <AnimarionSkills
+                name='Jest'
+                style={true}
+              />
+              <AnimarionSkills
+                name='Cypress'
+                style={false}
+              />
+              <AnimarionSkills
+                name='MongoDB Atlas'
+                style={true}
+              />
+              <AnimarionSkills
+                name='PWAs'
+                style={false}
+              />
             </div>
             <div className='box_animation'>
+              <AnimarionSkills
+                name='React'
+                style={true}
+              />
+              <AnimarionSkills
+                name='JavaScript'
+                style={false}
+              />
+              <AnimarionSkills
+                name='Next.JS'
+                style={true}
+              />
+              <AnimarionSkills
+                name='typeScript'
+                style={false}
+              />
               <AnimarionSkills
                 name='ui/ux Designer'
                 style={true}
@@ -113,6 +143,22 @@ export default function Home({ params }: any) {
               />
               <AnimarionSkills
                 name='clean code'
+                style={false}
+              />
+              <AnimarionSkills
+                name='Jest'
+                style={true}
+              />
+              <AnimarionSkills
+                name='Cypress'
+                style={false}
+              />
+              <AnimarionSkills
+                name='MongoDB Atlas'
+                style={true}
+              />
+              <AnimarionSkills
+                name='PWAs'
                 style={false}
               />
             </div>
