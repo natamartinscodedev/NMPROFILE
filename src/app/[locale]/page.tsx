@@ -12,6 +12,7 @@ import { Code, Component, Github, Linkedin, MailPlus, Twitter } from 'lucide-rea
 import Link from 'next/link';
 import LanguageSelector from '@/components/LanguageSelector';
 import { useTranslations } from 'next-intl';
+import TypingEffect from '@/components/TypingEffect';
 
 export default function Home({ params }: any) {
   const t = useTranslations('HomePage');
@@ -48,10 +49,10 @@ export default function Home({ params }: any) {
             <video src="/image/videobackground.mp4" autoPlay loop muted />
           </div>
           <div className='box-info'>
-            <h1>Frontend Developer
+            <h1><TypingEffect description='Frontend Developer' />
               <div>
                 <span>&</span>
-                <span>UI/UX Developer</span>
+                <span><TypingEffect description='UI/UX Developer' /></span>
               </div>
             </h1>
             <p>{t('description')}</p>
@@ -292,7 +293,7 @@ export default function Home({ params }: any) {
             </div>
             <Link
               className='mail-pus'
-              href='https://webportfolio-olive.vercel.app/'
+              href='https://nmsolucoes-com-br.vercel.app/'
               target='__blank'
             >{`${t('btnClick')}`}</Link>
 
