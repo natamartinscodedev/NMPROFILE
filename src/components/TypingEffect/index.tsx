@@ -3,13 +3,15 @@ import Typewriter from 'typewriter-effect';
 
 const TypingEffect = ({ description }: any) => {
 
-    return <Typewriter
-        options={{
-            strings: [`${description}`],
-            autoStart: true,
-            loop: true
-        }}
-    />
+    return <div className='typeWriter-style'>
+        <Typewriter
+            options={{
+                strings: [`${description}`],
+                autoStart: true,
+                loop: true,
+            }}
+        />
+    </div>
 }
 
 export default TypingEffect;

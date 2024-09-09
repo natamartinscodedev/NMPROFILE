@@ -123,3 +123,13 @@
         transform: translateX(0);
     }
 }
+
+@media(max-width: 800px) {
+    .box-left {
+        animation: animatioLeft 10s linear infinite;
+    }
+
+    .box-right {
+        animation: animatioRight 10s linear infinite;
+    }
+}
