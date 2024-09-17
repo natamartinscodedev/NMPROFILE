@@ -1,9 +1,9 @@
 {
     "HomePage": {
-        "description": "Desde 2021, tenho me dedicado ao desenvolvimento de interfaces e softwares, transformando minha paixão em uma carreira. Especializado em linguagens e tecnologias de ponta, como JavaScript/TypeScript, ReactJS,  NextJS, React Native e NodeJS, meu objetivo é criar produtos digitais de alta qualidade que impactem positivamente a vida das pessoas.",
+        "description": "Desenvolvedor Full Stack com mais de 3 anos de experiência. Desenvolver interfaces e softwares não é apenas uma habilidade, mas uma verdadeira paixão. Especializando em linguagens e tecnologias de programação como JavaScript, TypeScript, ReactJS, React Native Next JS, Node JS, HTML, CSS, Sass e outras tecnologias de ponta da área, com foco no Frontend.",
         "title": "Experience professional",
         "subTitle01": "Desenvolvimento Web e Desenvolvimento de Software",
-        "subTitle02": "Desenvolvimento Orientado a Testes (TDD)",
+        "subTitle02": "Stacks",
         "text01": "JavaScript/TypeScript: Expertise em ES6+, Ember.js. Frameworks e Bibliotecas: ReactJS, NextJS, VueJS, NodeJS. Integrações BFF (Backend for Frontend): Experiência com REST APIs. Styling: Proficiência em Sass, Styled Components, Tailwind CSS, Material UI. Progressive Web Apps (PWAs): Criação de sites responsivos e acessíveis.",
         "text02": "Ferramentas: Jest, Cypress.Clean Code: Código limpo, acessível e reutilizável.",
         "text03": "Ferramentas: Figma, Storybook.Ecossistema JS: Babel, Webpack.",
