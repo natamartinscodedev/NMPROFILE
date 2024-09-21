@@ -49,7 +49,7 @@ export default function Home({ params }: any) {
             <video src="/image/videobackground.mp4" autoPlay loop muted />
           </div>
           <div className='box-info'>
-            <h1><TypingEffect description='Full Stack Developer' />
+            <h1><TypingEffect description='Frontend Developer' />
               <div>
                 <span>&</span>
                 <span>UI/UX</span>
