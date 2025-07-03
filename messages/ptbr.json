@@ -1,17 +1,22 @@
 {
-    "HomePage": {
-        "description": "Frontend Developer a mais de 3 anos. Desenvolver interfaces e softwares não é apenas uma habilidade, mas uma verdadeira paixão. Especializando em linguagens e tecnologias de programação como JavaScript, TypeScript, ReactJS, React Native Next JS, Node JS, HTML, CSS, Sass e outras tecnologias de ponta da área, com foco no Frontend.",
-        "title": "Experience professional",
-        "subTitle01": "Desenvolvimento Web e Desenvolvimento de Software",
-        "subTitle02": "Stacks",
-        "text01": "JavaScript/TypeScript: Expertise em ES6+, Ember.js. Frameworks e Bibliotecas: ReactJS, NextJS, VueJS, NodeJS. Integrações BFF (Backend for Frontend): Experiência com REST APIs. Styling: Proficiência em Sass, Styled Components, Tailwind CSS, Material UI. Progressive Web Apps (PWAs): Criação de sites responsivos e acessíveis.",
-        "text02": "Ferramentas: Jest, Cypress.Clean Code: Código limpo, acessível e reutilizável.",
-        "text03": "Ferramentas: Figma, Storybook.Ecossistema JS: Babel, Webpack.",
-        "text04": "Bancos de Dados: MongoDB, Firebase. Linguagens Adicionais: Java (Maven, Spring Boot), Kotlin. Contêineres: Docker.",
-        "objective": "Meu objetivo é continuar crescendo como profissional, desenvolvendo produtos de qualidade, transformando vidas e aprendendo novas tecnologias. Estou constantemente em busca de novos desafios que me permitam aplicar minhas habilidades e contribuir para projetos inovadores. Adepto de metodologias ágeis, acredito na entrega rápida e contínua de valor.",
-        "contactTitle": "Quer começar um projeto e alavancar seu produto online?",
-        "contactSubTitle": "Entre em contato para conversarmos",
-        "MidiaTitle": "Redes para contato:",
-        "btnClick": "Click aqui!"
-    }
+  "HomePage": {
+    "description": "Frontend Engineer - React, TypeScript, Tailwind, Bun.js, Node.js, IA First © O menino do HTML",
+    "titleEffect": "🐺Don't think just do it1%",
+    "title": "Experience professional",
+    "subTitle01": "Sobre:",
+    "subTitle02": "Stacks",
+    "text01": "Sou um programador apaixonado pela tecnologia, com mais de 3 anos de experiência, especialista em acessibilidade, desenvolvendo aplicações escaláveis e de alto desempenho usando tecnologias web modernas como JavaScript (ES6+), TypeScript, ReactJS, React Native, NextJS e NodeJS. Sou especializado em Frontend, soluções BFF (Backend for Frontend) e integrações com APIs RESTful, com forte foco em performance e experiência do usuário, atuando tanto em Web2 quanto em Web3. Também realizo testes com Jest, React Testing Library e Cypress. Atualmente estou estudando Blockchain e Web3.",
+    "text02": "Profissionalmente, adquiri experiência sólida trabalhando com Sass, Styled Components, Tailwind CSS, Material UI e padrões PWA para entregar aplicações responsivas, acessíveis e com foco em mobile first. Tenho prática com Clean Code, design UI/UX utilizando o Figma e experiência com ferramentas e frameworks como MongoDB, Firebase, Java (Spring Boot), Kotlin, Docker, Babel, Webpack, Storybook e VueJS.",
+    "text03": "Se você está procurando um Desenvolvedor de Software apaixonado, com expertise em JS, TS, React, Node.js, microsserviços e um verdadeiro desejo de transformar vidas com tecnologia, ficarei empolgado em contribuir com minhas habilidades e conhecimentos para sua equipe. Vamos nos conectar!",
+    "text04": "Bancos de Dados: MongoDB, Firebase. Linguagens Adicionais: Java (Maven, Spring Boot), Kotlin. Contêineres: Docker.",
+    "objective": "Minha missão é criar soluções digitais impactantes que melhorem vidas e impulsionem a inovação por meio da tecnologia. Me destaco em ambientes colaborativos e valorizo a comunicação clara, o aprendizado contínuo e a entrega de resultados reais.",
+    "contactTitle": "Quer começar um projeto e alavancar seu produto online?",
+    "contactSubTitle": "Entre em contato para conversarmos",
+    "MidiaTitle": "Redes para contato:",
+    "btnClick": "Click aqui!"
+  },
+  "WxperiencePage": {
+    "title": "Projetos pessoais",
+    "title02": "Experiência profissional"
+  }
 }

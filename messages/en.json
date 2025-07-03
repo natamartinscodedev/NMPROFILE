@@ -1,17 +1,17 @@
 {
-    "HomePage": {
-        "description": "Frontend Developer with over 3 years of experience. Developing interfaces and software is not just a skill, but a true passion. Specializing in programming languages ​​and technologies such as JavaScript, TypeScript, ReactJS, React Native Next JS, Node JS, HTML, CSS, Sass and other cutting-edge technologies in the area, with a focus on Frontend.",
-        "title": "Professional Experience",
-        "subTitle01": "Web Developer and Software Developer",
-        "subTitle02": "Test-Driven Development (TDD)",
-        "text01": "JavaScript/TypeScript: Expertise in ES6+, Ember.js. Frameworks and Libraries: ReactJS, NextJS, VueJS, NodeJS. BFF (Backend for Frontend) Integrations: Experience with REST APIs. Styling: Proficient in Sass, Styled Components, Tailwind CSS, Material UI. Progressive Web Apps (PWAs): Creating responsive and accessible websites.",
-        "text02": "Tools: Jest, Cypress. Clean Code: Writing clean, accessible, and reusable code.",
-        "text03": "Tools: Figma, Storybook. JS Ecosystem: Babel, Webpack.",
-        "text04": "Databases: MongoDB, Firebase. Additional Languages: Java (Maven, Spring Boot), Kotlin. Containers: Docker.",
-        "objective": "My goal is to continue growing as a professional, developing high-quality products, transforming lives, and learning new technologies. I am constantly seeking new challenges that allow me to apply my skills and contribute to innovative projects. A proponent of agile methodologies, I believe in the rapid and continuous delivery of value.",
-        "contactTitle": "Ready to start a project and boost your online product?",
-        "contactSubTitle": "Get in touch to discuss",
-        "MidiaTitle": "Contact channels:",
-        "btnClick": "Click here!"
-    }
+  "HomePage": {
+    "description": "Frontend Engineer - React, TypeScript, Tailwind, Bun.js, Node.js, IA First © The HTML Boy",
+    "title": "Professional Experience",
+    "subTitle01": "Web Developer and Software Developer",
+    "subTitle02": "Test-Driven Development (TDD)",
+    "text01": "JavaScript/TypeScript: Expertise in ES6+, Ember.js. Frameworks and Libraries: ReactJS, NextJS, VueJS, NodeJS. BFF (Backend for Frontend) Integrations: Experience with REST APIs. Styling: Proficient in Sass, Styled Components, Tailwind CSS, Material UI. Progressive Web Apps (PWAs): Creating responsive and accessible websites.",
+    "text02": "Tools: Jest, Cypress. Clean Code: Writing clean, accessible, and reusable code.",
+    "text03": "Tools: Figma, Storybook. JS Ecosystem: Babel, Webpack.",
+    "text04": "Databases: MongoDB, Firebase. Additional Languages: Java (Maven, Spring Boot), Kotlin. Containers: Docker.",
+    "objective": "My goal is to continue growing as a professional, developing high-quality products, transforming lives, and learning new technologies. I am constantly seeking new challenges that allow me to apply my skills and contribute to innovative projects. A proponent of agile methodologies, I believe in the rapid and continuous delivery of value.",
+    "contactTitle": "Ready to start a project and boost your online product?",
+    "contactSubTitle": "Get in touch to discuss",
+    "MidiaTitle": "Contact channels:",
+    "btnClick": "Click here!"
+  }
 }

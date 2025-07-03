@@ -1,23 +1,44 @@
 .card_nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    border-radius: 10px;
-    margin-top: 1rem;
-    background-color: rgb(97, 97, 97);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
 
-    a {
-        color: white;
-        font-size: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.1);
+      scale: 1.1;
+
+      .card_midia-icon {
+        svg {
+          color: rgba(255, 255, 255, 0.1);
+        }
+      }
     }
+  }
 }
 
 .button-translation {
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-}
+  padding: 0.2rem 2rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
 
+  &:hover {
+    scale: 1.1;
+  }
+}
